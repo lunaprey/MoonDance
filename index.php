@@ -1,7 +1,9 @@
 <?php
   session_start();
   echo $_SESSION['userid'];
+  $username = $_SESSION['username'];
   var_dump($_SESSION['userid']);
+  echo $username;
 ?>
 
 <!DOCTYPE html>
