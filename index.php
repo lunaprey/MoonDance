@@ -64,7 +64,7 @@
       height: 20px;
     }
     .navbar {
-      background-color: #161b22;
+      background-color: #010409;
       font-size: 14px;
     }
     
