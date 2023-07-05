@@ -1,12 +1,3 @@
-<?php
-function getCSTDateTime() {
-  date_default_timezone_set('America/Chicago');
-  return date('Y-m-d H:i:s');
-}
-    $cstDateTime = getCSTDateTime();
-    echo "Current CST Date and Time: " . $cstDateTime;
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -124,7 +115,7 @@ function getCSTDateTime() {
   </style>
 </head>
 <body>
-  
+  <?php echo "hello"; ?>
   <nav class="navbar navbar-dark">
   <a class="navbar-brand, glow" href="#">
     <i class="fas fa-moon"></i>
