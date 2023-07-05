@@ -11,9 +11,6 @@
       font-family: Arial, sans-serif;
       font-size: 12pt;
     }
-    button{
-      height: 20px;
-    }
     
     #container {
       max-width: 1200px;
