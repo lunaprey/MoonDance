@@ -159,7 +159,7 @@
   
   
   <div id="container">
-    <h1 class="glow">Threads</h1>
+    <h1>Threads</h1>
     
     <div class="forum-category">
       <h2><a href="#">General Discussion</a></h2>
