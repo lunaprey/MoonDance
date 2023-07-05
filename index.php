@@ -131,11 +131,6 @@
   
   
   <div id="container">
-    <?php
-    $cstDateTime = getCSTDateTime();
-    echo "Current CST Date and Time: " . $cstDateTime;
-    php?>
-
     <h1 class="glow">Threads</h1>
     
     <div class="forum-category">
