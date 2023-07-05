@@ -130,7 +130,7 @@
         // Logout Button
     ?>
     <a href="#" class="ml-2"><?php echo $_SESSION['userid']; ?></a>
-    <a href="#" class="ml-2">Logout</a>
+    <a href="#">Logout</a>
     <?php
     } else {
         // Show Login form and Register Button
