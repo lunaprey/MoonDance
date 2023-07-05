@@ -1,13 +1,3 @@
-<?php
-if (isset($_SESSION['userid'])) {
-    // The login session exists
-    echo 'Logged in';
-} else {
-    // The login session doesn't exist
-    echo 'Not logged in';
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -129,12 +119,24 @@ if (isset($_SESSION['userid'])) {
   <a class="navbar-brand, glow" href="#">
     <i class="fas fa-moon"></i>
   </a> &nbsp; MoonDance
-  <form class="form-inline ml-auto">
+  <?php
+    if (isset($_SESSION['userid'])) {
+        // Logout Button
+    ?>
+    <a href="#" class="ml-2">Logout</a>
+    <?php
+    } else {
+        // Show Login form and Register Button
+    ?>
+    <form class="form-inline ml-auto">
     <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="text" placeholder="Username" aria-label="Username">
     <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="password" placeholder="Password" aria-label="Password">
     <button class="type="submit">Login</button>
   </form>
   <a href="#" class="ml-2">Register</a>
+    <?php
+    }
+  ?>
     </nav>
 
   
