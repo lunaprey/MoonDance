@@ -81,7 +81,10 @@
       font-size: 12px;
       color: #ffffff;
     }
-    
+    .navbar-text{
+      margin-left: 2px;
+      padding-left: 2px;
+    }
     .form-inline .form-control {
       width: 150px;
       font-size: 12pt;
