@@ -63,9 +63,6 @@
       padding-top: 10px;
       border-top: 1px solid #333333;
     }
-    .form-inline{
-      width: 120px;
-    }
      .input-sm {
       height: 20px;
     }
