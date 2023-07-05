@@ -115,7 +115,7 @@
   <form class="form-inline ml-auto">
     <input class="form-control form-control-sm mr-sm-2 input-sm" type="text" placeholder="Username" aria-label="Username">
     <input class="form-control form-control-sm mr-sm-2 input-sm" type="password" placeholder="Password" aria-label="Password">
-    <button class="btn btn-primary btn-sm my-2 my-sm-0 input-sm login-button" type="submit">Login</button>
+    <button class="type="submit">Login</button>
   </form>
   <a href="#" class="ml-2">Register</a>
     </nav>
