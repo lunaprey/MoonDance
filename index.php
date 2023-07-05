@@ -1,3 +1,10 @@
+<?php
+function getCSTDateTime() {
+  date_default_timezone_set('America/Chicago');
+  return date('Y-m-d H:i:s');
+}
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -129,6 +136,11 @@
   
   
   <div id="container">
+    <?php
+    $cstDateTime = getCSTDateTime();
+    echo "Current CST Date and Time: " . $cstDateTime;
+    php?>
+
     <h1 class="glow">Threads</h1>
     
     <div class="forum-category">
