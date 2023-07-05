@@ -134,7 +134,7 @@
     ?>
     <div class="ml-auto">
         <span class="navbar-text mr-2"><?php echo $_SESSION['userid']; ?></span>
-        <a href="#" class="btn btn-sm btn-primary">Logout</a>
+        <a href="#" class="">Logout</a>
     </div>
     <?php
     } else {
