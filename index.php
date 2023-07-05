@@ -1,5 +1,7 @@
 <?php
   session_start();
+  echo "hello";
+  echo $_SESSION['userid'];
 ?>
 
 <!DOCTYPE html>
