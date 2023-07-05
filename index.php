@@ -1,5 +1,5 @@
 <?php 
-  echo "hello";
+  echo "PHP is working";
 ?>
 
 <!DOCTYPE html>
@@ -119,7 +119,6 @@
   </style>
 </head>
 <body>
-  <?php echo "hello"; ?>
   <nav class="navbar navbar-dark">
   <a class="navbar-brand, glow" href="#">
     <i class="fas fa-moon"></i>
