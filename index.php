@@ -2,6 +2,10 @@
 function getCSTDateTime() {
   date_default_timezone_set('America/Chicago');
   return date('Y-m-d H:i:s');
+
+    $cstDateTime = getCSTDateTime();
+    echo "Current CST Date and Time: " . $cstDateTime;
+?>
 }
 
 
