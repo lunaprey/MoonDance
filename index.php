@@ -20,6 +20,7 @@ function getCSTDateTime() {
     }
     button{
       background-color: #0d1117;
+      color: #ffffff;
     }
     #container {
       max-width: 1200px;
