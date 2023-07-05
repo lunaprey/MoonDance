@@ -122,29 +122,37 @@
 </head>
 <body>
   <nav class="navbar navbar-dark">
-  <a class="navbar-brand, glow" href="#">
-    <i class="fas fa-moon"></i>
-  </a> &nbsp; MoonDance
+  <div class="d-flex align-items-center">
+    <a class="navbar-brand, glow mr-3" href="#">
+      <i class="fas fa-moon"></i>
+    </a>
+    <span class="navbar-text">MoonDance</span>
+  </div>
   <?php
     if (isset($_SESSION['userid'])) {
         // Logout Button
     ?>
-    <a href="#" class="ml-2"><?php echo $_SESSION['userid']; ?></a>
-    <a href="#">Logout</a>
+    <div class="ml-auto">
+        <span class="navbar-text mr-2"><?php echo $_SESSION['userid']; ?></span>
+        <a href="#" class="btn btn-sm btn-primary">Logout</a>
+    </div>
     <?php
     } else {
         // Show Login form and Register Button
     ?>
-    <form class="form-inline ml-auto">
-    <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="text" placeholder="Username" aria-label="Username">
-    <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="password" placeholder="Password" aria-label="Password">
-    <button class="type="submit">Login</button>
-  </form>
-  <a href="#" class="ml-2">Register</a>
+    <div class="ml-auto">
+        <form class="form-inline">
+            <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="text" placeholder="Username" aria-label="Username">
+            <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-sm btn-primary" type="submit">Login</button>
+        </form>
+        <a href="#" class="btn btn-sm btn-secondary ml-2">Register</a>
+    </div>
     <?php
     }
-  ?>
+    ?>
     </nav>
+
 
   
   
