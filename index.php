@@ -30,7 +30,7 @@
     }
     
     .forum-category {
-      background-color: #333333;
+      background-color: #0d1117;
       padding: 10px;
       margin-bottom: 20px;
     }
