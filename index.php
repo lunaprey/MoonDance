@@ -60,7 +60,7 @@
     }
     
     .glow {
-      text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+      text-shadow: 0 0 10px #6A0DAD, 0 0 20px #6A0DAD, 0 0 30px #6A0DAD;
     }
     
     footer {
