@@ -106,6 +106,7 @@
     .black-background {
       background-color: black;
       font-size: 12pt;
+      width: 100pt;
     }
 
 
