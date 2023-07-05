@@ -22,8 +22,8 @@
       color: #ffffff;
     }
     #container {
-      max-width: 1200px;
       margin-left: 20px;
+      margin-right: 20px;
       padding: 20px;
       background-color: #0d1117;
       border: 1px solid #333333;
