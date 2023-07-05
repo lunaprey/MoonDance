@@ -82,8 +82,7 @@
       color: #ffffff;
     }
     .navbar-text{
-      margin-left: 2px;
-      padding-left: 2px;
+      margin-left: -10px;
     }
     .form-inline .form-control {
       width: 150px;
