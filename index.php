@@ -1,5 +1,11 @@
-<?php 
-  echo "PHP is working";
+<?php
+if (isset($_SESSION['userid'])) {
+    // The login session exists
+    echo 'Logged in';
+} else {
+    // The login session doesn't exist
+    echo 'Not logged in';
+}
 ?>
 
 <!DOCTYPE html>
