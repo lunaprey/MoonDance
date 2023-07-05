@@ -142,7 +142,7 @@
   </div>
   
   <footer>
-    <p>&copy; An opensource project. See <a href="https://github.com/lunaprey/MoonDance">https://github.com/lunaprey/MoonDance to contribute.</a></p>
+    <p>An opensource project. See <a href="https://github.com/lunaprey/MoonDance">https://github.com/lunaprey/MoonDance to contribute.</a></p>
   </footer>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
