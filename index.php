@@ -1,6 +1,5 @@
 <?php
   session_start();
-  echo "hello";
   echo $_SESSION['userid'];
   var_dump($_SESSION['userid']);
 ?>
