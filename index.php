@@ -117,7 +117,7 @@
     <input class="form-control form-control-sm mr-sm-2 input-sm" type="password" placeholder="Password" aria-label="Password">
     <button class="btn btn-primary btn-sm my-2 my-sm-0 input-sm login-button" type="submit">Login</button>
   </form>
-  <a href="#" class="btn btn-light btn-sm ml-2">Register</a>
+  <a href="#" class="btn ml-2">Register</a>
     </nav>
 
   
