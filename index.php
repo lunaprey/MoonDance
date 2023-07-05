@@ -143,7 +143,7 @@
             <input class="black-background" type="password" placeholder="Password" aria-label="Password">
             <button type="submit">Login</button>
         </form>
-        <a href="#" class="">Register</a>
+        <a href="#" class="ml-auto">Register</a>
     </div>
     <?php
     }
