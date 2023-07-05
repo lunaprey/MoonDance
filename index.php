@@ -13,8 +13,8 @@
     }
     
     #container {
-      max-width: 800px;
-      margin: 50px auto;
+      max-width: 1000px;
+      margin: 20px auto;
       padding: 20px;
       background-color: #222222;
       border: 1px solid #333333;
