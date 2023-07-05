@@ -129,6 +129,7 @@
     if (isset($_SESSION['userid'])) {
         // Logout Button
     ?>
+    <a href="#" class="ml-2"><?php echo $_SESSION['userid']; ?></a>
     <a href="#" class="ml-2">Logout</a>
     <?php
     } else {
