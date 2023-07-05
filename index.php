@@ -16,7 +16,7 @@
       max-width: 1200px;
       margin: 20px auto;
       padding: 20px;
-      background-color: #222222;
+      background-color: #161b22;
       border: 1px solid #333333;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
