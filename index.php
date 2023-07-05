@@ -128,14 +128,14 @@
     <a class="navbar-brand, glow mr-3" href="#">
       <i class="fas fa-moon"></i>
     </a>
-    <span class="navbar-text">MoonDance</span>
+    <span class="navbar-text"><a href="#">MoonDance</a></span>
   </div>
   <?php
     if (isset($_SESSION['userid'])) {
         // Logout Button
     ?>
     <div class="ml-auto">
-        <span class="navbar-text mr-2"><?php echo $_SESSION['userid']; ?></span>
+        <span class="navbar-text mr-2"><a href="#"><?php echo $_SESSION['userid']; ?></a></span>
         <a href="#" class="">Logout</a>
     </div>
     <?php
