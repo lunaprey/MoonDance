@@ -98,6 +98,10 @@
       background-color: #ffffff;
       color: #000000;
     }
+    .black-background {
+      background-color: black;
+    }
+
 
     /* Custom styles */
     .login-button {
@@ -113,8 +117,8 @@
     <i class="fas fa-moon"></i>
   </a> &nbsp; MoonDance
   <form class="form-inline ml-auto">
-    <input class="form-control form-control-sm mr-sm-2 input-sm" type="text" placeholder="Username" aria-label="Username">
-    <input class="form-control form-control-sm mr-sm-2 input-sm" type="password" placeholder="Password" aria-label="Password">
+    <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="text" placeholder="Username" aria-label="Username">
+    <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="password" placeholder="Password" aria-label="Password">
     <button class="type="submit">Login</button>
   </form>
   <a href="#" class="ml-2">Register</a>
