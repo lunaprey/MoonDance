@@ -143,7 +143,7 @@
         <form action="login.php" class="form-inline">
             <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="text" placeholder="Username" aria-label="Username">
             <input class="form-control form-control-sm mr-sm-2 input-sm black-background" type="password" placeholder="Password" aria-label="Password">
-            <button class="" type="submit">Login</button>
+            <button type="submit">Login</button>
         </form>
         <a href="#" class="">Register</a>
     </div>
