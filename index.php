@@ -109,7 +109,7 @@
     }
     .black-background {
       background-color: black;
-      font-size: 10pt;
+      font-size: 9pt;
       width: 100pt;
       height: 18px;
     }
