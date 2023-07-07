@@ -21,6 +21,7 @@
       margin-left: 20px;
       margin-right: 20px;
       padding: 20px;
+      flex-grow: 1;
       background-color: #0d1117;
       border: 1px solid #333333;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
