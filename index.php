@@ -156,6 +156,8 @@
     <div class="forum-category">
       <h2><a href="#">Welcome</a></h2>
       <p>Welcome! MoonDance aspires to be a fully OpenSource forum software that anyone can use to host their own forum.</p>
+      <p>This website is hosted on cPanel, with identical filestructure and naming conventions to this GitHub project. Each file uses the PHP "include" function, and then executes the code sourced from this project to run this website.</p>
+      <p>As this project gets going, MongoDB will be used on the backend to host conversations.</p>
     </div>
 
   </div>
