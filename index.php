@@ -108,12 +108,13 @@
     }
     .black-background {
       background-color: black;
-      font-size: 12pt;
+      font-size: 10pt;
       width: 100pt;
-      height: 15px;
+      height: 18px;
     }
-
-
+    ::placeholder {
+      font-size: 10px;
+    }
     /* Custom styles */
     .login-button {
       padding-top: 0.375rem !important;
