@@ -31,6 +31,9 @@
       text-align: left;
       font-size: 16px;
     }
+    h2{
+      padding-bottom: 10px;
+    }
     p {
         font-size: 12px;
     }
