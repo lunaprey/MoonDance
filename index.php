@@ -147,7 +147,7 @@
         <form action="login.php" class="form-inline">
             <input class="black-background" type="text" placeholder="Username" aria-label="Username">
             <input class="black-background" type="password" placeholder="Password" aria-label="Password">
-            <button type="submit">Login</button>
+            <button class="black-background" type="submit">Login</button>
         </form>
         <a href="register.php" class="ml-auto">Register</a>
     </div>
