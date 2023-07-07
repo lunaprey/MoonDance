@@ -64,7 +64,7 @@
       border-top: 1px solid #333333;
     }
      .input-sm {
-      height: 20px;
+      height: 15px;
     }
     .navbar {
       background-color: #010409;
