@@ -30,6 +30,7 @@
     h1 {
       text-align: left;
       font-size: 16px;
+      padding-bottom: 10px;
     }
     h2{
       padding-bottom: 10px;
