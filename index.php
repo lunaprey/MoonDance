@@ -151,7 +151,7 @@
     </nav>
   
   <div id="container">
-    MoonDance - An OpenSource Web Community</h1>
+    An OpenSource Web Community</h1>
     
     <div class="forum-category">
       <h2><a href="#">Welcome</a></h2>
