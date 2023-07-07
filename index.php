@@ -151,11 +151,11 @@
     </nav>
   
   <div id="container">
-    <h1>Threads</h1>
+    MoonDance - An OpenSource Web Community</h1>
     
     <div class="forum-category">
-      <h2><a href="#">General Discussion</a></h2>
-      <p>This is a place to discuss general topics.</p>
+      <h2><a href="#">Welcome</a></h2>
+      <p>Welcome! MoonDance aspires to be a fully OpenSource forum software that anyone can use to host their own forum.</p>
     </div>
 
   </div>
