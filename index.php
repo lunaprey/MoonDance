@@ -10,6 +10,8 @@
       color: #ffffff;
       font-family: Arial, sans-serif;
       font-size: 12pt;
+      display: flex;
+      flex-direction: column;
     }
     button{
       background-color: #0d1117;
