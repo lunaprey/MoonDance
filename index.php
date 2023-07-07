@@ -149,9 +149,6 @@
     }
     ?>
     </nav>
-
-
-  
   
   <div id="container">
     <h1>Threads</h1>
@@ -160,16 +157,7 @@
       <h2><a href="#">General Discussion</a></h2>
       <p>This is a place to discuss general topics.</p>
     </div>
-    
-    <div class="forum-category">
-      <h2><a href="#">Technical Support</a></h2>
-      <p>Get help with technical issues here.</p>
-    </div>
-    
-    <div class="forum-category">
-      <h2><a href="#">Announcements</a></h2>
-      <p>Stay updated with the latest forum news.</p>
-    </div>
+
   </div>
   
   <footer>
