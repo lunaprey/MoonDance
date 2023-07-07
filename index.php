@@ -69,9 +69,6 @@
       padding-top: 10px;
       border-top: 1px solid #333333;
     }
-     .input {
-      height: 15px;
-    }
     .navbar {
       background-color: #010409;
       font-size: 14px;
@@ -113,6 +110,7 @@
       background-color: black;
       font-size: 12pt;
       width: 100pt;
+      height: 15px;
     }
 
 
