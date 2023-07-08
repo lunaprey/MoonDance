@@ -98,7 +98,36 @@ footer {
   font-size: 12px;
   color: #ffffff;
 }
+.form-group {
+      margin-bottom: 20px;
+}
 
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 12pt;
+  background-color: #0c0e11;
+  color: #ffffff;
+  border: none;
+}
+
+.form-group textarea {
+  height: 200px;
+}
+
+.form-group button {
+  background-color: #0d1117;
+  color: #ffffff;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
 .navbar-text {
   margin-left: 5px;
 }
