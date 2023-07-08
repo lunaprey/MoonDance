@@ -19,9 +19,9 @@
     ?>
     <div class="ml-auto">
         <form  method="post" action="login.php" class="form-inline">
-            <input class="black-background" type="text" placeholder="Username" aria-label="Username">
-            <input class="black-background" type="password" placeholder="Password" aria-label="Password">
-            <button class="black-background" type="submit">Login</button>
+            <input name="username" class="black-background" type="text" placeholder="Username" aria-label="Username">
+            <input name="password" class="black-background" type="password" placeholder="Password" aria-label="Password">
+            <input class="black-background" type="submit">
         </form>
         <a href="register.php" class="ml-auto">Register</a>
     </div>
