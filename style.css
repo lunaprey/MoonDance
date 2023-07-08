@@ -67,6 +67,7 @@ footer {
   border-top: 1px solid #333333;
   position: fixed;
   bottom: 0;
+  margin: 0 auto;
 }
 
 .navbar {
