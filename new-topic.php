@@ -26,7 +26,7 @@
           <textarea id="message" name="message" placeholder="Enter your message"></textarea>
         </div>
         <div class="form-group">
-          <input style="color:#00aaff;" type="submit" value="Create Topic">
+          <input class="black-background" style="color:#00aaff;" type="submit" value="Create Topic">
         </div>
       </form>
     </div>
