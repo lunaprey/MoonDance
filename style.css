@@ -5,6 +5,7 @@ body {
   font-size: 12pt;
   display: flex;
   flex-direction: column;
+  max-width: 64rem;
 }
 
 button {
