@@ -26,10 +26,10 @@
   <div id="container">
     Threads
     <div class="forum-category">
-      <h2><a href="#">Welcome</a></h2>
-      <p>MoonDance aims to become a comprehensive and entirely OpenSource forum software accessible to all for hosting their individual forums.</p>
-      <p>This website is securely hosted on cPanel, adopting the same file structure and naming conventions as the corresponding GitHub project located at <a href="https://github.com/lunaprey/MoonDance">https://github.com/lunaprey/MoonDance</a>. Utilizing the PHP "include" function, each file executes the code derived from this project to power the functionality of this website.</p>
-      <p>This project uses a MySQL backend solution for hosting dynamic conversations.</p>
+      <h2><a href="#">Create Thread</a></h2>
+      <div>Thread #1</div>
+      <div>Thread #2</div>
+      <div>Thread #3</div>
     </div>
   </div>
   
