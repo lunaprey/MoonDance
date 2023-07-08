@@ -16,8 +16,9 @@
   <div id="container">
     New Topic
     <div class="forum-category">
-      <h2><a href="#">Welcome</a></h2>
-      <p>MoonDance</p>
+      <input class="black-background" type="text" name="subject"><br/>
+      <textbox></textbox><br/>
+      <input value="Create Topic" type="submit">
     </div>
   </div>
 
