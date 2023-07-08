@@ -48,10 +48,10 @@
             <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
           <tr>
-            <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
+            <td>Long Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
           <tr>
-            <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
+            <td>An even longer Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
         </table>
         
