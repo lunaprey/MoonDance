@@ -14,11 +14,11 @@ if ($conn->connect_error) {
 
 // Handling form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $user = isset($_POST["username"]) ? $_POST["username"] : "";
+    $usern = isset($_POST["username"]) ? $_POST["username"] : "";
     $pass = isset($_POST["password"]) ? $_POST["password"] : "";
 
     // Validate and sanitize the input
-    $user = filter_var($user, FILTER_SANITIZE_STRING);
+    $usern = filter_var($usern, FILTER_SANITIZE_STRING);
     $pass = filter_var($pass, FILTER_SANITIZE_STRING);
 
     // Prepare the query using prepared statements to prevent SQL injection
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.php");
         exit();
     } else {
-        header("Location: index.php?login=failed&user=' . $user . '&time");
+        header("Location: index.php?login=failed&user=' . $usern . '&time");
         exit();
     }
 
