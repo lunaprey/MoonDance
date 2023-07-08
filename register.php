@@ -11,9 +11,20 @@ if ($conn->connect_error) {
 
 // Handling form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-    $email = $_POST["email"];
+    
+    $username = isset($_POST["username"]) ? $_POST["username"] : "";
+    $password = isset($_POST["password"]) ? $_POST["password"] : "";
+    $email = isset($_POST["email"]) ? $_POST["email"] : "";
+    
+    // Validate and sanitize the input
+    $username = filter_var($username, FILTER_SANITIZE_STRING);
+    $password = filter_var($password, FILTER_SANITIZE_STRING);
+    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
+    
+    // Validate the email format
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Handle invalid email error
+    }
 
     // Query to check if the user already exists
     $check_query = "SELECT * FROM users WHERE username = '$username'";
