@@ -29,7 +29,7 @@
       <h2><a href="#">Create Thread</a></h2>
       <div>
         <table>
-          <tr>
+          <tr width="100%">
             <td>
               Subject
             </td>
