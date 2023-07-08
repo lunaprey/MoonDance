@@ -14,19 +14,17 @@ if ($conn->connect_error) {
 
 // Handling form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = isset($_POST["username"]) ? $_POST["username"] : "";
-    $password = isset($_POST["password"]) ? $_POST["password"] : "";
+    $user = isset($_POST["username"]) ? $_POST["username"] : "";
+    $pass = isset($_POST["password"]) ? $_POST["password"] : "";
 
     // Validate and sanitize the input
-    $username = filter_var($username, FILTER_SANITIZE_STRING);
-    $password = filter_var($password, FILTER_SANITIZE_STRING);
-
-    echo $username;
+    $user = filter_var($user, FILTER_SANITIZE_STRING);
+    $pass = filter_var($pass, FILTER_SANITIZE_STRING);
 
     // Prepare the query using prepared statements to prevent SQL injection
     $check_query = "SELECT * FROM users WHERE username = ? AND password = ?";
     $stmt = $conn->prepare($check_query);
-    $stmt->bind_param("ss", $username, $password);
+    $stmt->bind_param("ss", $user, $pass);
     $stmt->execute();
     $result = $stmt->get_result();
 
