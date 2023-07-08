@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.php");
         exit();
     } else {
-        echo "Wrong! Press back and try again.";
+        header("Location: index.php?login=success");
         exit();
     }
 
