@@ -31,10 +31,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $user['username'];
 
         // Redirect to index.php or perform login logic
-        header("Location: index.php");
+        header("Location: index.php?login=success");
         exit();
     } else {
-        header("Location: index.php?login=failed&user=" . $usern . "&time=" . time());
+        header("Location: index.php?login=failed");
         exit();
     }
 
