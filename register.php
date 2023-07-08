@@ -73,7 +73,7 @@ $conn->close();
             <input class="black-background" type="text" placeholder="Username" name="username" required><br><br>
             <input class="black-background" type="password" placeholder="Password" name="password" required><br><br>
             <input class="black-background" type="email" placeholder="Email" name="email" required><br><br>
-            <input class="black-background" type="submit" value="Register">
+            <input class="black-background" style="color:white" type="submit" value="Register">
         </form>
     </div>
 
