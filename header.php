@@ -24,7 +24,6 @@
             <input class="black-background" name="Login" type="submit">
             <a href="register.php" class="ml-auto">Register</a>
         </form>
-        <a href="register.php" class="ml-auto">Register</a>
     </div>
     <?php
     }
