@@ -56,17 +56,63 @@ $conn->close();
 <html>
 <head>
     <title>User Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        <?php include 'https://raw.githubusercontent.com/lunaprey/MoonDance/main/style.css'; ?>
+    </style>
 </head>
 <body>
-    <h2>User Registration</h2>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label for="username">Username:</label>
-        <input type="text" name="username" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" required><br><br>
-        <input type="submit" value="Register">
-    </form>
+     <nav class="navbar navbar-dark">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand, glow mr-3" href="#">
+          <i class="fas fa-moon"></i>
+        </a>
+        <span class="navbar-text"><a href="#">MoonDance</a></span>
+      </div>
+      <?php
+        if (isset($_SESSION['userid'])) {
+            // Logout Button
+        ?>
+        <div class="ml-auto">
+            <span class="navbar-text mr-2"><a href="#"><?php echo $_SESSION['userid']; ?></a></span>
+            <a href="logout.php" class="">Logout</a>
+        </div>
+        <?php
+        } else {
+            // Show Login form and Register Button
+        ?>
+        <div class="ml-auto">
+            <form action="login.php" class="form-inline">
+                <input class="black-background" type="text" placeholder="Username" aria-label="Username">
+                <input class="black-background" type="password" placeholder="Password" aria-label="Password">
+                <button class="black-background" type="submit">Login</button>
+            </form>
+            <a href="register.php" class="ml-auto">Register</a>
+        </div>
+        <?php
+        }
+        ?>
+        </nav>
+
+    <div id="container">
+        <h2>User Registration</h2>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <footer>
+    <p>An opensource project. See <a href="https://github.com/lunaprey/MoonDance">https://github.com/lunaprey/MoonDance</a> to contribute.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
