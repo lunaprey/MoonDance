@@ -32,13 +32,13 @@
           <tr style="color: #238636">
             <td>Subject</td><td>Posts</td><td>Creator</td><td>Last Post</td><td>Delete</td>
           </tr>
-          <tr>
+          <tr style="background-color: #010409">
             <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
           <tr>
             <td>Long Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
-          <tr>
+          <tr style="background-color: #010409">
             <td>An even longer Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
           </tr>
           <tr>
