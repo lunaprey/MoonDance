@@ -28,8 +28,8 @@
     <div class="forum-category">
       <h2><a href="#">Create Thread</a></h2>
       <div>
-        <table>
-          <tr width="100%">
+        <table style="width: 100%;">
+          <tr>
             <td>
               Subject
             </td>
