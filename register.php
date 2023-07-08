@@ -68,7 +68,7 @@ $conn->close();
     </header>
      
     <div id="container">
-        <h2>User Registration</h2>
+        <h2 style="font-size:14">Register</h2>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <input class="black-background" type="text" placeholder="Username" name="username" required><br>
             <input class="black-background" type="password" placeholder="Password" name="password" required><br>
