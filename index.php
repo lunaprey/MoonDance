@@ -24,8 +24,8 @@
   </div>
 
   <div id="container">
+    <h2><button>Create Thread</button></h2>
     <div class="forum-category">
-      <h2><button>Create Thread</button></h2>
       <div>
         <table style="width: 100%;">
           <tr style="color: #6c757d">
