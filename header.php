@@ -22,7 +22,7 @@
             <input name="username" class="black-background" type="text" placeholder="Username" aria-label="Username">
             <input name="password" class="black-background" type="password" placeholder="Password" aria-label="Password">
             <input class="black-background" name="Login" type="submit">
-            <a href="register.php" class="ml-auto">Register</a>
+            <button class="black-background"><a href="register.php" class="ml-auto">Register</a></button>
         </form>
     </div>
     <?php
