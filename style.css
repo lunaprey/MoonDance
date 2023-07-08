@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 64rem;
+  margin:auto;
 }
 
 button {
