@@ -70,9 +70,9 @@ $conn->close();
     <div id="container">
         <h2>User Registration</h2>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <input class="black-background" type="text" placeholder="Username" name="username" required><br><br>
-            <input class="black-background" type="password" placeholder="Password" name="password" required><br><br>
-            <input class="black-background" type="email" placeholder="Email" name="email" required><br><br>
+            <input class="black-background" type="text" placeholder="Username" name="username" required><br>
+            <input class="black-background" type="password" placeholder="Password" name="password" required><br>
+            <input class="black-background" type="email" placeholder="Email" name="email" required><br>
             <input class="black-background" style="color:white" type="submit" value="Register">
         </form>
     </div>
