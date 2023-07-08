@@ -135,6 +135,12 @@ footer {
   width: 80pt;
   height: 23px;
 }
+textbox{
+  background-color: black;
+  font-size: 9pt;
+  width: 380pt;
+  height: 223px;
+}
 
 ::placeholder {
   font-size: 10px;
