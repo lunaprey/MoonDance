@@ -29,7 +29,7 @@
       <div>
         <table style="width: 100%;">
           <tr style="color: #6c757d">
-            <td>Subject</td><td>Posts</td><td>Creator</td><td>Last Post</td><td>Delete</td>
+            <td>&nbsp</td><td>Posts</td><td>Creator</td><td>Last Post</td><td>Delete</td>
           </tr>
           <tr style="background-color: #010409">
             <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
