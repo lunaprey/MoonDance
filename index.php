@@ -26,7 +26,7 @@
   <div id="container">
     Threads
     <div class="forum-category">
-      <h2><a href="#">Create Thread</a></h2>
+      <h2><button>Create Thread</button></h2>
       <div>
         <table style="width: 100%;">
           <tr style="color: #6c757d">
