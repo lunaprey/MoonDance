@@ -24,7 +24,6 @@
   </div>
 
   <div id="container">
-    Threads
     <div class="forum-category">
       <h2><button>Create Thread</button></h2>
       <div>
