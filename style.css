@@ -9,7 +9,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  color: black;
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #ccc;
+}
 button {
   background-color: #0d1117;
   color: #ffffff;
