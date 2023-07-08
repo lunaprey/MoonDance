@@ -24,7 +24,7 @@
   </div>
 
   <div id="container">
-    <button href="new-topic.php" class="black-background">Create Thread</button></br>
+    <a href="new-topic.php"><button class="black-background">Create Thread</button></a></br></br>
     <div class="forum-category">
       <div>
         <table style="width: 100%;">
