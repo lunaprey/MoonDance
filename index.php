@@ -27,9 +27,35 @@
     Threads
     <div class="forum-category">
       <h2><a href="#">Create Thread</a></h2>
-      <div>Thread #1</div>
-      <div>Thread #2</div>
-      <div>Thread #3</div>
+      <div>
+        <table>
+          <tr>
+            <td>
+              Subject
+            </td>
+            <td>
+              Posts
+            </td>
+            <td>
+              Creator
+            </td>
+            <td>
+              Last Post
+            </td>
+            <td>Delete</td>
+          </tr>
+          <tr>
+            <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
+          </tr>
+          <tr>
+            <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
+          </tr>
+          <tr>
+            <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
+          </tr>
+        </table>
+        
+      </div>
     </div>
   </div>
   
