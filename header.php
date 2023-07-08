@@ -18,7 +18,7 @@
         // Show Login form and Register Button
     ?>
     <div class="ml-auto">
-        <form  method="post" action="login.php" class="form-inline">
+        <form method="post" action="login.php" class="form-inline">
             <input name="username" class="black-background" type="text" placeholder="Username" aria-label="Username">
             <input name="password" class="black-background" type="password" placeholder="Password" aria-label="Password">
             <input class="black-background" type="submit">
