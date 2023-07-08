@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark">
   <div class="d-flex align-items-center">
-    <a class="navbar-brand, glow mr-3" href="#">
+    <a class="navbar-brand, glow mr-2" href="#">
       <i class="fas fa-moon"></i>
     </a>
     <span class="navbar-text"><a href="https://moon-dance.net">MoonDance</a></span>
