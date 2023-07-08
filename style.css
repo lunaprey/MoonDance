@@ -25,7 +25,9 @@ button {
 input{
   color: white;
 }
-
+a{
+  color: #00aaff;
+}
 #container {
   margin-left: 20px;
   margin-right: 20px;
