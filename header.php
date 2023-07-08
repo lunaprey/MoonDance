@@ -10,7 +10,7 @@
         // Logout Button
     ?>
     <div class="ml-auto">
-        <span class="navbar-text mr-2"><a href="profile.php?id=<?php echo $_SESSION['id']; ?>"<?php echo $_SESSION['username']; ?></a></span>
+        <span class="navbar-text mr-2"><a href="profile.php?id=<?php echo $_SESSION['userid']; ?>"<?php echo $_SESSION['username']; ?></a></span>
         <a href="logout.php" class="">Logout</a>
     </div>
     <?php
