@@ -11,6 +11,9 @@ button {
   background-color: #0d1117;
   color: #ffffff;
 }
+input{
+  color: white;
+}
 
 #container {
   margin-left: 20px;
