@@ -98,10 +98,10 @@ $conn->close();
     <div id="container">
         <h2>User Registration</h2>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <input type="text" placeholder="Username" name="username" required><br><br>
-            <input type="password" placeholder="Password" name="password" required><br><br>
-            <input type="email" placeholder="Email" name="email" required><br><br>
-            <input type="submit" value="Register">
+            <input class="black-background" type="text" placeholder="Username" name="username" required><br><br>
+            <input class="black-background" type="password" placeholder="Password" name="password" required><br><br>
+            <input class="black-background" type="email" placeholder="Email" name="email" required><br><br>
+            <input class="black-background" type="submit" value="Register">
         </form>
     </div>
 
