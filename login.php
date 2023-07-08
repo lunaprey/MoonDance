@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Prepare the query using prepared statements to prevent SQL injection
     $check_query = "SELECT * FROM users WHERE username = ? AND password = ?";
     $stmt = $conn->prepare($check_query);
-    $stmt->bind_param("ss", $user, $pass);
+    $stmt->bind_param("ss", $usern, $pass);
     $stmt->execute();
     $result = $stmt->get_result();
 
