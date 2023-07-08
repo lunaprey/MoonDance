@@ -21,6 +21,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = filter_var($username, FILTER_SANITIZE_STRING);
     $password = filter_var($password, FILTER_SANITIZE_STRING);
 
+    echo $username;
+
     // Prepare the query using prepared statements to prevent SQL injection
     $check_query = "SELECT * FROM users WHERE username = ? AND password = ?";
     $stmt = $conn->prepare($check_query);
