@@ -29,20 +29,8 @@
       <h2><a href="#">Create Thread</a></h2>
       <div>
         <table style="width: 100%;">
-          <tr>
-            <td>
-              Subject
-            </td>
-            <td>
-              Posts
-            </td>
-            <td>
-              Creator
-            </td>
-            <td>
-              Last Post
-            </td>
-            <td>Delete</td>
+          <tr style="color: #6A0DAD">
+            <td>Subject</td><td>Posts</td><td>Creator</td><td>Last Post</td><td>Delete</td>
           </tr>
           <tr>
             <td>Title</td><td>1</td><td>Name</td><td>Date</td><td>Delete</td>
