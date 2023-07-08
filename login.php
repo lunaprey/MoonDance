@@ -27,13 +27,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
-        // User exists, redirect to index.php or perform login logic
+        // User exists, fetch user data and assign session variables
+        $user = $result->fetch_assoc();
         $_SESSION['userid'] = $user['id'];
         $_SESSION['username'] = $user['username'];
+
+        // Redirect to index.php or perform login logic
         header("Location: index.php");
         exit();
     } else {
-        header("Location: index.php?login=success");
+        header("Location: index.php?login=failed");
         exit();
     }
 
