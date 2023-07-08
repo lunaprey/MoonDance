@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: index.php");
         exit();
     } else {
-        header("Location: index.php?login=failed");
+        header("Location: index.php?login=failed&user=' . $user . '&time");
         exit();
     }
 
