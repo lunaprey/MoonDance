@@ -11,7 +11,7 @@
     ?>
     <div class="ml-auto">
         <span class="navbar-text mr-2"><a href="profile.php?id=<?php echo $_SESSION['userid']; ?>"><?php echo $_SESSION['username']; ?></a></span>
-        <button class="black-background"><a href="logout.php" class="">Logout</a></button>
+        <button type="button" value="Logout" onclick="window.location.href='logout.php'">Logout</button>
     </div>
     <?php
     } else {
@@ -23,7 +23,7 @@
             <input name="password" class="black-background" type="password" placeholder="Password" aria-label="Password">
             <input class="black-background" value="Login" type="submit">
             &nbsp;<div style="color:#6c757d;">or</div>&nbsp;
-            <button class="black-background"><a href="register.php" class="ml-auto">Register</a></button>
+            <button type="button" value="Logout" onclick="window.location.href='register.php'">Register</button>
         </form>
     </div>
     <?php
