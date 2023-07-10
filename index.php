@@ -24,6 +24,7 @@
   <div id="container">
     <div class="forum-category">
       <button class="black-background"><a href="new-topic.php">Create Thread</a></button>
+      <button type="button" value="New Topic" onclick="window.location.href='new-topic.php'">New Topic</button>
       <div>
         <table style="width: 100%;">
           <tr style="color: #6c757d">
