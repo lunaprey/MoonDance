@@ -21,7 +21,7 @@
         <form method="post" action="login.php" class="form-inline">
             <input name="username" class="black-background" type="text" placeholder="Username" aria-label="Username">
             <input name="password" class="black-background" type="password" placeholder="Password" aria-label="Password">
-            <input class="black-background" value="Login" type="submit">
+            <input value="Login" type="submit">
             &nbsp;<div style="color:#6c757d;">or</div>&nbsp;
             <button type="button" value="Logout" onclick="window.location.href='register.php'">Register</button>
         </form>
